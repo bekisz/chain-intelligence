@@ -1,0 +1,2330 @@
+{
+  "kind": "fb",
+  "name": "wallets",
+  "content": {
+    "version": 6,
+    "config": {},
+    "extra": {
+      "chartOptions": {
+        "chartType": "line",
+        "scaleType": 1,
+        "stackMode": "none",
+        "movingAvg": 30,
+        "interpolationType": 0,
+        "data": {
+          "type": "formula",
+          "initialData": [
+            {
+              "name": "BTC_Price",
+              "code": "BTC.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_CapMrktCurUSD",
+              "code": "BTC.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_CapRealUSD",
+              "code": "BTC.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_AdrBal1in10BCnt",
+              "code": "BTC.AdrBal1in10BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_AdrBal1in1BCnt",
+              "code": "BTC.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_AdrBal1in100MCnt",
+              "code": "BTC.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_AdrBal1in10MCnt",
+              "code": "BTC.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_AdrBalUSD10MCnt",
+              "code": "BTC.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_AdrBalUSD1MCnt",
+              "code": "BTC.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BTC_AdrBalUSD100KCnt",
+              "code": "BTC.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_AdrBalUSD10KCnt",
+              "code": "BTC.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_AdrBalUSD1KCnt",
+              "code": "BTC.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_AdrBalUSD100Cnt",
+              "code": "BTC.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTC_AdrBalUSD10Cnt",
+              "code": "BTC.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_Price",
+              "code": "LTC.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_CapMrktCurUSD",
+              "code": "LTC.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_CapRealUSD",
+              "code": "LTC.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_AdrBal1in10BCnt",
+              "code": "LTC.AdrBal1in10BCnt",
+              "color": "#795547",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_AdrBal1in1BCnt",
+              "code": "LTC.AdrBal1in1BCnt",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_AdrBal1in100MCnt",
+              "code": "LTC.AdrBal1in100MCnt",
+              "color": "#9c28b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_AdrBal1in10MCnt",
+              "code": "LTC.AdrBal1in10MCnt",
+              "color": "#25c6da",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_AdrBal1in1MCnt",
+              "code": "LTC.AdrBal1in1MCnt",
+              "color": "#bfef45",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_AdrBalUSD10MCnt",
+              "code": "LTC.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_AdrBalUSD1MCnt",
+              "code": "LTC.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "LTC_AdrBalUSD100KCnt",
+              "code": "LTC.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_AdrBalUSD10KCnt",
+              "code": "LTC.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_AdrBalUSD1KCnt",
+              "code": "LTC.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_AdrBalUSD100Cnt",
+              "code": "LTC.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LTC_AdrBalUSD10Cnt",
+              "code": "LTC.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_Price",
+              "code": "ETH.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_CapMrktCurUSD",
+              "code": "ETH.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_CapRealUSD",
+              "code": "ETH.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_AdrBal1in10BCnt",
+              "code": "ETH.AdrBal1in10BCnt",
+              "color": "#ff8b7f",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_AdrBal1in1BCnt",
+              "code": "ETH.AdrBal1in1BCnt",
+              "color": "#e8601c",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_AdrBal1in100MCnt",
+              "code": "ETH.AdrBal1in100MCnt",
+              "color": "#bfef45",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_AdrBal1in10MCnt",
+              "code": "ETH.AdrBal1in10MCnt",
+              "color": "#019688",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_AdrBal1in1MCnt",
+              "code": "ETH.AdrBal1in1MCnt",
+              "color": "#b869c5",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_AdrBalUSD10MCnt",
+              "code": "ETH.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_AdrBalUSD1MCnt",
+              "code": "ETH.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ETH_AdrBalUSD100KCnt",
+              "code": "ETH.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_AdrBalUSD10KCnt",
+              "code": "ETH.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_AdrBalUSD1KCnt",
+              "code": "ETH.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_AdrBalUSD100Cnt",
+              "code": "ETH.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETH_AdrBalUSD10Cnt",
+              "code": "ETH.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_Price",
+              "code": "ADA.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_CapMrktCurUSD",
+              "code": "ADA.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_CapRealUSD",
+              "code": "ADA.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ADA_AdrBal1in10BCnt",
+              "code": "ADA.AdrBal1in10BCnt",
+              "color": "#795547",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_AdrBal1in1BCnt",
+              "code": "ADA.AdrBal1in1BCnt",
+              "color": "#fff69e",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_AdrBal1in100MCnt",
+              "code": "ADA.AdrBal1in100MCnt",
+              "color": "#800000",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_AdrBal1in10MCnt",
+              "code": "ADA.AdrBal1in10MCnt",
+              "color": "#aaffc3",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_AdrBal1in1MCnt",
+              "code": "ADA.AdrBal1in1MCnt",
+              "color": "#808000",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_AdrBalUSD10MCnt",
+              "code": "ADA.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_AdrBalUSD1MCnt",
+              "code": "ADA.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_AdrBalUSD100KCnt",
+              "code": "ADA.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_AdrBalUSD10KCnt",
+              "code": "ADA.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_AdrBalUSD1KCnt",
+              "code": "ADA.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_AdrBalUSD100Cnt",
+              "code": "ADA.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ADA_AdrBalUSD10Cnt",
+              "code": "ADA.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_Price",
+              "code": "MKR.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_CapMrktCurUSD",
+              "code": "MKR.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_CapRealUSD",
+              "code": "MKR.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "MKR_AdrBal1in10BCnt",
+              "code": "MKR.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_AdrBal1in1BCnt",
+              "code": "MKR.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_AdrBal1in100MCnt",
+              "code": "MKR.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_AdrBal1in10MCnt",
+              "code": "MKR.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_AdrBal1in1MCnt",
+              "code": "MKR.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_AdrBalUSD10MCnt",
+              "code": "MKR.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_AdrBalUSD1MCnt",
+              "code": "MKR.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_AdrBalUSD100KCnt",
+              "code": "MKR.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_AdrBalUSD10KCnt",
+              "code": "MKR.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_AdrBalUSD1KCnt",
+              "code": "MKR.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_AdrBalUSD100Cnt",
+              "code": "MKR.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MKR_AdrBalUSD10Cnt",
+              "code": "MKR.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "LINK_Price",
+              "code": "LINK.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_CapMrktCurUSD",
+              "code": "LINK.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_CapRealUSD",
+              "code": "LINK.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "LINK_AdrBal1in10BCnt",
+              "code": "LINK.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_AdrBal1in1BCnt",
+              "code": "LINK.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_AdrBal1in100MCnt",
+              "code": "LINK.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_AdrBal1in10MCnt",
+              "code": "LINK.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_AdrBal1in1MCnt",
+              "code": "LINK.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_AdrBalUSD10MCnt",
+              "code": "LINK.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_AdrBalUSD1MCnt",
+              "code": "LINK.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "LINK_AdrBalUSD100KCnt",
+              "code": "LINK.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_AdrBalUSD10KCnt",
+              "code": "LINK.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_AdrBalUSD1KCnt",
+              "code": "LINK.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_AdrBalUSD100Cnt",
+              "code": "LINK.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "LINK_AdrBalUSD10Cnt",
+              "code": "LINK.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ETC_Price",
+              "code": "ETC.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETC_CapMrktCurUSD",
+              "code": "ETC.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETC_CapRealUSD",
+              "code": "ETC.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ETC_AdrBal1in10BCnt",
+              "code": "ETC.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETC_AdrBal1in1BCnt",
+              "code": "ETC.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETC_AdrBal1in100MCnt",
+              "code": "ETC.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETC_AdrBal1in10MCnt",
+              "code": "ETC.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETC_AdrBal1in1MCnt",
+              "code": "ETC.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ETC_AdrBalUSD10MCnt",
+              "code": "ETC.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETC_AdrBalUSD1MCnt",
+              "code": "ETC.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ETC_AdrBalUSD100KCnt",
+              "code": "ETC.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETC_AdrBalUSD10KCnt",
+              "code": "ETC.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETC_AdrBalUSD1KCnt",
+              "code": "ETC.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETC_AdrBalUSD100Cnt",
+              "code": "ETC.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ETC_AdrBalUSD10Cnt",
+              "code": "ETC.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BCH_Price",
+              "code": "BCH.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_CapMrktCurUSD",
+              "code": "BCH.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_CapRealUSD",
+              "code": "BCH.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BCH_AdrBal1in10BCnt",
+              "code": "BCH.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_AdrBal1in1BCnt",
+              "code": "BCH.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_AdrBal1in100MCnt",
+              "code": "BCH.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_AdrBal1in10MCnt",
+              "code": "BCH.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_AdrBal1in1MCnt",
+              "code": "BCH.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_AdrBalUSD10MCnt",
+              "code": "BCH.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_AdrBalUSD1MCnt",
+              "code": "BCH.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BCH_AdrBalUSD100KCnt",
+              "code": "BCH.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_AdrBalUSD10KCnt",
+              "code": "BCH.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_AdrBalUSD1KCnt",
+              "code": "BCH.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_AdrBalUSD100Cnt",
+              "code": "BCH.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BCH_AdrBalUSD10Cnt",
+              "code": "BCH.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "UNI_Price",
+              "code": "UNI.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_CapMrktCurUSD",
+              "code": "UNI.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_CapRealUSD",
+              "code": "UNI.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "UNI_AdrBal1in10BCnt",
+              "code": "UNI.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_AdrBal1in1BCnt",
+              "code": "UNI.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_AdrBal1in100MCnt",
+              "code": "UNI.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_AdrBal1in10MCnt",
+              "code": "UNI.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_AdrBal1in1MCnt",
+              "code": "UNI.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_AdrBalUSD10MCnt",
+              "code": "UNI.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_AdrBalUSD1MCnt",
+              "code": "UNI.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "UNI_AdrBalUSD100KCnt",
+              "code": "UNI.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_AdrBalUSD10KCnt",
+              "code": "UNI.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_AdrBalUSD1KCnt",
+              "code": "UNI.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_AdrBalUSD100Cnt",
+              "code": "UNI.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "UNI_AdrBalUSD10Cnt",
+              "code": "UNI.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "CRV_Price",
+              "code": "CRV.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "CRV_CapRealUSD",
+              "code": "CRV.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "CRV_CapMrktCurUSD",
+              "code": "CRV.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "CRV_AdrBal1in10BCnt",
+              "code": "CRV.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "CRV_AdrBal1in1BCnt",
+              "code": "CRV.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "CRV_AdrBal1in100MCnt",
+              "code": "CRV.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "CRV_AdrBal1in10MCnt",
+              "code": "CRV.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "CRV_AdrBal1in1MCnt",
+              "code": "CRV.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "CRV_AdrBalUSD10MCnt",
+              "code": "CRV.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "CRV_AdrBalUSD1MCnt",
+              "code": "CRV.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "CRV_AdrBalUSD100KCnt",
+              "code": "CRV.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "CRV_AdrBalUSD10KCnt",
+              "code": "CRV.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "CRV_AdrBalUSD1KCnt",
+              "code": "CRV.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "CRV_AdrBalUSD100Cnt",
+              "code": "CRV.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "CRV_AdrBalUSD10Cnt",
+              "code": "CRV.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BAL_AdrBal1in10BCnt",
+              "code": "BAL.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_Price",
+              "code": "BAL.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_CapMrktCurUSD",
+              "code": "BAL.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_CapRealUSD",
+              "code": "BAL.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BAL_AdrBal1in1BCnt",
+              "code": "BAL.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_AdrBal1in100MCnt",
+              "code": "BAL.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_AdrBal1in10MCnt",
+              "code": "BAL.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_AdrBal1in1MCnt",
+              "code": "BAL.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_AdrBalUSD10MCnt",
+              "code": "BAL.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_AdrBalUSD1MCnt",
+              "code": "BAL.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BAL_AdrBalUSD100KCnt",
+              "code": "BAL.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_AdrBalUSD10KCnt",
+              "code": "BAL.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_AdrBalUSD1KCnt",
+              "code": "BAL.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_AdrBalUSD100Cnt",
+              "code": "BAL.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAL_AdrBalUSD10Cnt",
+              "code": "BAL.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "AAVE_Price",
+              "code": "AAVE.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_CapMrktCurUSD",
+              "code": "AAVE.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_CapRealUSD",
+              "code": "AAVE.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_AdrBal1in10BCnt",
+              "code": "AAVE.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_AdrBal1in1BCnt",
+              "code": "AAVE.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_AdrBal1in100MCnt",
+              "code": "AAVE.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_AdrBal1in10MCnt",
+              "code": "AAVE.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_AdrBal1in1MCnt",
+              "code": "AAVE.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_AdrBalUSD10MCnt",
+              "code": "AAVE.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_AdrBalUSD1MCnt",
+              "code": "AAVE.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "AAVE_AdrBalUSD100KCnt",
+              "code": "AAVE.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_AdrBalUSD10KCnt",
+              "code": "AAVE.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_AdrBalUSD1KCnt",
+              "code": "AAVE.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_AdrBalUSD100Cnt",
+              "code": "AAVE.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "AAVE_AdrBalUSD10Cnt",
+              "code": "AAVE.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_Price",
+              "code": "COMP.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_CapMrktCurUSD",
+              "code": "COMP.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_CapRealUSD",
+              "code": "COMP.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "COMP_AdrBal1in10BCnt",
+              "code": "COMP.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_AdrBal1in1BCnt",
+              "code": "COMP.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_AdrBal1in100MCnt",
+              "code": "COMP.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_AdrBal1in10MCnt",
+              "code": "COMP.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_AdrBal1in1MCnt",
+              "code": "COMP.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_AdrBalUSD10MCnt",
+              "code": "COMP.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_AdrBalUSD1MCnt",
+              "code": "COMP.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "COMP_AdrBalUSD100KCnt",
+              "code": "COMP.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_AdrBalUSD10KCnt",
+              "code": "COMP.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_AdrBalUSD1KCnt",
+              "code": "COMP.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_AdrBalUSD100Cnt",
+              "code": "COMP.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "COMP_AdrBalUSD10Cnt",
+              "code": "COMP.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "MATICETH_Price",
+              "code": "MATIC_ETH.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MATICETH_CapMrktCurUSD",
+              "code": "MATIC_ETH.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "MATICETH_CapRealUSD",
+              "code": "MATIC_ETH.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "MATICETH_AdrBal1in10BCnt",
+              "code": "MATIC_ETH.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "MATICETH_AdrBal1in1BCnt",
+              "code": "MATIC_ETH.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "MATICETH_AdrBal1in100MCnt",
+              "code": "MATIC_ETH.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "MATICETH_AdrBal1in10MCnt",
+              "code": "MATIC_ETH.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "MATICETH_AdrBal1in1MCnt",
+              "code": "MATIC_ETH.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "MATICETH_AdrBalUSD10MCnt",
+              "code": "MATIC_ETH.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MATICETH_AdrBalUSD1MCnt",
+              "code": "MATIC_ETH.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "MATICETH_AdrBalUSD100KCnt",
+              "code": "MATIC_ETH.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MATICETH_AdrBalUSD10KCnt",
+              "code": "MATIC_ETH.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MATICETH_AdrBalUSD1KCnt",
+              "code": "MATIC_ETH.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MATICETH_AdrBalUSD100Cnt",
+              "code": "MATIC_ETH.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MATICETH_AdrBalUSD10Cnt",
+              "code": "MATIC_ETH.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BTG_Price",
+              "code": "BTG.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_CapMrktCurUSD",
+              "code": "BTG.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_CapRealUSD",
+              "code": "BTG.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BTG_AdrBal1in10BCnt",
+              "code": "BTG.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_AdrBal1in1BCnt",
+              "code": "BTG.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_AdrBal1in100MCnt",
+              "code": "BTG.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_AdrBal1in10MCnt",
+              "code": "BTG.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_AdrBal1in1MCnt",
+              "code": "BTG.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_AdrBalUSD10MCnt",
+              "code": "BTG.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_AdrBalUSD1MCnt",
+              "code": "BTG.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BTG_AdrBalUSD100KCnt",
+              "code": "BTG.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_AdrBalUSD10KCnt",
+              "code": "BTG.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_AdrBalUSD1KCnt",
+              "code": "BTG.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_AdrBalUSD100Cnt",
+              "code": "BTG.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BTG_AdrBalUSD10Cnt",
+              "code": "BTG.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "YFI_Price",
+              "code": "YFI.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_CapMrktCurUSD",
+              "code": "YFI.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_CapRealUSD",
+              "code": "YFI.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBal1in10BCnt",
+              "code": "YFI.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBal1in1BCnt",
+              "code": "YFI.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBal1in100MCnt",
+              "code": "YFI.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBal1in10MCnt",
+              "code": "YFI.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBal1in1MCnt",
+              "code": "YFI.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBalUSD10MCnt",
+              "code": "YFI.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBalUSD1MCnt",
+              "code": "YFI.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBalUSD100KCnt",
+              "code": "YFI.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBalUSD10KCnt",
+              "code": "YFI.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBalUSD1KCnt",
+              "code": "YFI.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBalUSD100Cnt",
+              "code": "YFI.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "YFI_AdrBalUSD10Cnt",
+              "code": "YFI.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ZEC_Price",
+              "code": "ZEC.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ZEC_CapMrktCurUSD",
+              "code": "ZEC.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ZEC_CapRealUSD",
+              "code": "ZEC.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ZEC_AdrBalUSD10MCnt",
+              "code": "ZEC.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ZEC_AdrBalUSD1MCnt",
+              "code": "ZEC.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ZEC_AdrBalUSD100KCnt",
+              "code": "ZEC.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ZEC_AdrBalUSD10KCnt",
+              "code": "ZEC.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ZEC_AdrBalUSD1KCnt",
+              "code": "ZEC.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ZEC_AdrBalUSD100Cnt",
+              "code": "ZEC.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ZEC_AdrBalUSD10Cnt",
+              "code": "ZEC.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ZEC_CapMrktCurUSD",
+              "code": "ZEC.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ZEC_AdrBal1in10BCnt",
+              "code": "ZEC.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "ZEC_AdrBal1in1BCnt",
+              "code": "ZEC.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "ZEC_AdrBal1in100MCnt",
+              "code": "ZEC.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "ZEC_AdrBal1in10MCnt",
+              "code": "ZEC.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "ZEC_AdrBal1in1MCnt",
+              "code": "ZEC.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_Price",
+              "code": "ALGO.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_CapMrktCurUSD",
+              "code": "ALGO.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_CapRealUSD",
+              "code": "ALGO.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "ALGO_AdrBal1in10BCnt",
+              "code": "ALGO.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_AdrBal1in1BCnt",
+              "code": "ALGO.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_AdrBal1in100MCnt",
+              "code": "ALGO.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_AdrBal1in10MCnt",
+              "code": "ALGO.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_AdrBal1in1MCnt",
+              "code": "ALGO.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_AdrBalUSD10MCnt",
+              "code": "ALGO.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_AdrBalUSD1MCnt",
+              "code": "ALGO.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_AdrBalUSD100KCnt",
+              "code": "ALGO.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_AdrBalUSD10KCnt",
+              "code": "ALGO.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_AdrBalUSD1KCnt",
+              "code": "ALGO.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_AdrBalUSD100Cnt",
+              "code": "ALGO.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "ALGO_AdrBalUSD10Cnt",
+              "code": "ALGO.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+
+            {
+              "name": "XRP_Price",
+              "code": "XRP.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_CapMrktCurUSD",
+              "code": "XRP.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_CapRealUSD",
+              "code": "XRP.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "XRP_AdrBal1in10BCnt",
+              "code": "XRP.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_AdrBal1in1BCnt",
+              "code": "XRP.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_AdrBal1in100MCnt",
+              "code": "XRP.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_AdrBal1in10MCnt",
+              "code": "XRP.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_AdrBal1in1MCnt",
+              "code": "XRP.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_AdrBalUSD10MCnt",
+              "code": "XRP.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_AdrBalUSD1MCnt",
+              "code": "XRP.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_AdrBalUSD100KCnt",
+              "code": "XRP.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_AdrBalUSD10KCnt",
+              "code": "XRP.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_AdrBalUSD1KCnt",
+              "code": "XRP.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_AdrBalUSD100Cnt",
+              "code": "XRP.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XRP_AdrBalUSD10Cnt",
+              "code": "XRP.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "XLM_Price",
+              "code": "XLM.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_CapMrktCurUSD",
+              "code": "XLM.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_CapRealUSD",
+              "code": "XLM.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "XLM_AdrBal1in10BCnt",
+              "code": "XLM.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_AdrBal1in1BCnt",
+              "code": "XLM.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_AdrBal1in100MCnt",
+              "code": "XLM.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_AdrBal1in10MCnt",
+              "code": "XLM.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_AdrBal1in1MCnt",
+              "code": "XLM.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_AdrBalUSD10MCnt",
+              "code": "XLM.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_AdrBalUSD1MCnt",
+              "code": "XLM.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_AdrBalUSD100KCnt",
+              "code": "XLM.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_AdrBalUSD10KCnt",
+              "code": "XLM.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_AdrBalUSD1KCnt",
+              "code": "XLM.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_AdrBalUSD100Cnt",
+              "code": "XLM.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "XLM_AdrBalUSD10Cnt",
+              "code": "XLM.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "1INCH_Price",
+              "code": "1INCH.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_CapMrktCurUSD",
+              "code": "1INCH.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_CapRealUSD",
+              "code": "1INCH.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "1INCH_AdrBal1in10BCnt",
+              "code": "1INCH.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_AdrBal1in1BCnt",
+              "code": "1INCH.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_AdrBal1in100MCnt",
+              "code": "1INCH.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_AdrBal1in10MCnt",
+              "code": "1INCH.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_AdrBal1in1MCnt",
+              "code": "1INCH.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_AdrBalUSD10MCnt",
+              "code": "1INCH.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_AdrBalUSD1MCnt",
+              "code": "1INCH.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_AdrBalUSD100KCnt",
+              "code": "1INCH.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_AdrBalUSD10KCnt",
+              "code": "1INCH.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_AdrBalUSD1KCnt",
+              "code": "1INCH.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_AdrBalUSD100Cnt",
+              "code": "1INCH.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "1INCH_AdrBalUSD10Cnt",
+              "code": "1INCH.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "DOGE_Price",
+              "code": "DOGE.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_CapMrktCurUSD",
+              "code": "DOGE.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_CapRealUSD",
+              "code": "DOGE.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "DOGE_AdrBal1in10BCnt",
+              "code": "DOGE.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_AdrBal1in1BCnt",
+              "code": "DOGE.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_AdrBal1in100MCnt",
+              "code": "DOGE.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_AdrBal1in10MCnt",
+              "code": "DOGE.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_AdrBal1in1MCnt",
+              "code": "DOGE.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_AdrBalUSD10MCnt",
+              "code": "DOGE.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_AdrBalUSD1MCnt",
+              "code": "DOGE.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_AdrBalUSD100KCnt",
+              "code": "DOGE.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_AdrBalUSD10KCnt",
+              "code": "DOGE.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_AdrBalUSD1KCnt",
+              "code": "DOGE.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_AdrBalUSD100Cnt",
+              "code": "DOGE.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "DOGE_AdrBalUSD10Cnt",
+              "code": "DOGE.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BAT_Price",
+              "code": "BAT.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_CapMrktCurUSD",
+              "code": "BAT.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_CapRealUSD",
+              "code": "BAT.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "BAT_AdrBal1in10BCnt",
+              "code": "BAT.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_AdrBal1in1BCnt",
+              "code": "BAT.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_AdrBal1in100MCnt",
+              "code": "BAT.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_AdrBal1in10MCnt",
+              "code": "BAT.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_AdrBal1in1MCnt",
+              "code": "BAT.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_AdrBalUSD10MCnt",
+              "code": "BAT.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_AdrBalUSD1MCnt",
+              "code": "BAT.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_AdrBalUSD100KCnt",
+              "code": "BAT.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_AdrBalUSD10KCnt",
+              "code": "BAT.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_AdrBalUSD1KCnt",
+              "code": "BAT.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_AdrBalUSD100Cnt",
+              "code": "BAT.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "BAT_AdrBalUSD10Cnt",
+              "code": "BAT.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "MANA_Price",
+              "code": "MANA.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_CapMrktCurUSD",
+              "code": "MANA.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_CapRealUSD",
+              "code": "MANA.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "MANA_AdrBal1in10BCnt",
+              "code": "MANA.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_AdrBal1in1BCnt",
+              "code": "MANA.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_AdrBal1in100MCnt",
+              "code": "MANA.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_AdrBal1in10MCnt",
+              "code": "MANA.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_AdrBal1in1MCnt",
+              "code": "MANA.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_AdrBalUSD10MCnt",
+              "code": "MANA.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_AdrBalUSD1MCnt",
+              "code": "MANA.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_AdrBalUSD100KCnt",
+              "code": "MANA.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_AdrBalUSD10KCnt",
+              "code": "MANA.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_AdrBalUSD1KCnt",
+              "code": "MANA.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_AdrBalUSD100Cnt",
+              "code": "MANA.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "MANA_AdrBalUSD10Cnt",
+              "code": "MANA.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "SUSHI_Price",
+              "code": "SUSHI.PriceUSD",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_CapMrktCurUSD",
+              "code": "SUSHI.CapMrktCurUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_CapRealUSD",
+              "code": "SUSHI.CapRealUSD",
+              "color": "#4363d8",
+              "displayMode": "left"
+            },
+
+            {
+              "name": "SUSHI_AdrBal1in10BCnt",
+              "code": "SUSHI.AdrBal1in10BCnt",
+              "color": "#ffd8b1",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_AdrBal1in1BCnt",
+              "code": "SUSHI.AdrBal1in1BCnt",
+              "color": "#3939ac",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_AdrBal1in100MCnt",
+              "code": "SUSHI.AdrBal1in100MCnt",
+              "color": "#90a4ad",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_AdrBal1in10MCnt",
+              "code": "SUSHI.AdrBal1in10MCnt",
+              "color": "#e6194b",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_AdrBal1in1MCnt",
+              "code": "SUSHI.AdrBal1in1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_AdrBalUSD10MCnt",
+              "code": "SUSHI.AdrBalUSD10MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_AdrBalUSD1MCnt",
+              "code": "SUSHI.AdrBalUSD1MCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_AdrBalUSD100KCnt",
+              "code": "SUSHI.AdrBalUSD100KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_AdrBalUSD10KCnt",
+              "code": "SUSHI.AdrBalUSD10KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_AdrBalUSD1KCnt",
+              "code": "SUSHI.AdrBalUSD1KCnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_AdrBalUSD100Cnt",
+              "code": "SUSHI.AdrBalUSD100Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            },
+            {
+              "name": "SUSHI_AdrBalUSD10Cnt",
+              "code": "SUSHI.AdrBalUSD10Cnt",
+              "color": "#4eb265",
+              "displayMode": "left"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "kind": "fb",
+  "name": "Metcalfe-law LTC Lin",
+  "content": {
+    "version": 6,
+    "config": {},
+    "extra": {
+      "chartOptions": {
+        "chartType": "line",
+        "scaleType": 0,
+        "stackMode": "none",
+        "movingAvg": 30,
+        "interpolationType": 0,
+        "zoomRange": [
+          1546214400000,
+          1672272000000
+        ],
+        "data": {
+          "type": "formula",
+          "initialData": [
+            {
+              "name": "BTC Price",
+              "code": "BTC.PriceUSD",
+              "color": "#ffd8b1",
+              "displayMode": "none"
+            },
+            {
+              "name": "BTC / Addr^2",
+              "code": "(BTC.CapMrktCurUSD/(BTC.AdrBal1in1BCnt*BTC.AdrBal1in1BCnt)).map(fn(date,value,index,data) (if value<0.0001 then 0.0001 else value))",
+              "color": "#e8601c",
+              "displayMode": "none"
+            },
+            {
+              "name": "BTG / Addr^2",
+              "code": "BTG.CapMrktCurUSD/(BTG.AdrBal1in10MCnt*BTG.AdrBal1in10MCnt)",
+              "color": "#e8601c",
+              "displayMode": "none"
+            },
+            {
+              "name": "LTC / Addr^2",
+              "code": "LTC.CapRealUSD/(LTC.AdrBal1in10MCnt*LTC.AdrBal1in10MCnt)",
+              "color": "#25c6da",
+              "displayMode": "none"
+            },
+            {
+              "name": "ETH / Addr^2",
+              "code": "ETH.CapRealUSD/(ETH.AdrBal1in1BCnt*ETH.AdrBal1in1BCnt)",
+              "color": "#90a4ad",
+              "displayMode": "none"
+            },
+            {
+              "name": "ETC / Addr^2",
+              "code": "ETC.CapRealUSD/(ETC.AdrBal1in1BCnt*ETC.AdrBal1in1BCnt)",
+              "color": "#bfef45",
+              "displayMode": "none"
+            },
+            {
+              "name": "MKR / Addr^2",
+              "code": "MKR.CapRealUSD/(MKR.AdrBal1in10MCnt*MKR.AdrBal1in10MCnt)",
+              "color": "#aaffc3",
+              "displayMode": "none"
+            },
+            {
+              "name": "AAVE / Addr^2",
+              "code": "AAVE.CapRealUSD/(AAVE.AdrBal1in10MCnt*AAVE.AdrBal1in10MCnt)",
+              "color": "#b869c5",
+              "displayMode": "none"
+            },
+            {
+              "name": "LINK / Addr^2",
+              "code": "LINK.CapRealUSD/(LINK.AdrBal1in10MCnt*LINK.AdrBal1in10MCnt)",
+              "color": "#4363d8",
+              "displayMode": "none"
+            },
+            {
+              "name": "UNI / Addr^2",
+              "code": "UNI.CapRealUSD/(UNI.AdrBal1in10MCnt*UNI.AdrBal1in10MCnt)",
+              "color": "#f032e6",
+              "displayMode": "none"
+            },
+            {
+              "name": "BSV / Addr^2",
+              "code": "BSV.CapRealUSD/(BSV.AdrBal1in10MCnt*BSV.AdrBal1in10MCnt)",
+              "color": "#808000",
+              "displayMode": "none"
+            },
+            {
+              "name": "ZEC / Addr^2",
+              "code": "ZEC.CapRealUSD/(ZEC.AdrBal1in10MCnt*ZEC.AdrBal1in10MCnt)",
+              "color": "#25c6da",
+              "displayMode": "none"
+            },
+            {
+              "name": "DASH / Addr^2",
+              "code": "DASH.CapRealUSD/(DASH.AdrBal1in10MCnt*DASH.AdrBal1in10MCnt)",
+              "color": "#b869c5",
+              "displayMode": "none"
+            },
+            {
+              "name": "DOGE / Addr^2",
+              "code": "DOGE.CapRealUSD/(DOGE.AdrBal1in10MCnt*DOGE.AdrBal1in10MCnt)",
+              "color": "#e6194b",
+              "displayMode": "none"
+            },
+            {
+              "name": "BCH / Addr^2",
+              "code": "BCH.CapRealUSD/(BCH.AdrBal1in10MCnt*BCH.AdrBal1in10MCnt)",
+              "color": "#aaffc3",
+              "displayMode": "none"
+            },
+            {
+              "name": "ADA/Addr^2",
+              "code": "ADA.CapRealUSD/(ADA.AdrBal1in10MCnt*ADA.AdrBal1in10MCnt)",
+              "color": "#25c6da",
+              "displayMode": "left"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
