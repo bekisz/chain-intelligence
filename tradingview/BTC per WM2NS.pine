@@ -1,0 +1,16 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © carefulSalami4641
+
+//@version=5
+//indicator("Get 20 SMA of Apple", overlay=true)
+btc_price = request.quandl("BITFINEX/BTCUSD", barmerge.gaps_off, 0)
+//ms = request.economic("US", "WM2S")
+//apple_sma = ta.sma(apple_price, 21)
+
+indicator("request.quandl")
+m2 = request.quandl("FED/M2_N_WM", barmerge.gaps_off, 0)
+
+plot(btc_price/m2)
+
+//plot(ms)
+
